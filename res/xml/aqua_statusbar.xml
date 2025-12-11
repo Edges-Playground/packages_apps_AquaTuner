@@ -1,7 +1,7 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
     <Preference
-        android:title="Gestures Settings"
-        android:summary="Configure swipe, tap, and motion gestures." />
+        android:title="Statusbar Settings"
+        android:summary="Customize icons, layout, and indicators." />
 
 </PreferenceScreen>

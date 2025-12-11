@@ -1,0 +1,11 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="aqua_header"
+        android:layout="@layout/aqua_header" />
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="aqua_tiles"
+        android:layout="@layout/aqua_tiles" />
+
+</PreferenceScreen>

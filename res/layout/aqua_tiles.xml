@@ -1,0 +1,61 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="2"
+    android:padding="16dp">
+
+    <!-- THEMES -->
+    <com.android.settingslib.widget.IllustrationPreference
+        android:key="aqua_themes"
+        android:layout_width="0dp"
+        android:layout_height="140dp"
+        android:layout_columnWeight="1"
+        android:summary="Themes"
+        android:icon="@drawable/ic_aqua_themes" />
+
+    <!-- LOCKSCREEN -->
+    <com.android.settingslib.widget.IllustrationPreference
+        android:key="aqua_lockscreen"
+        android:layout_width="0dp"
+        android:layout_height="140dp"
+        android:layout_columnWeight="1"
+        android:summary="Lockscreen"
+        android:icon="@drawable/ic_aqua_lockscreen" />
+
+    <!-- STATUSBAR -->
+    <com.android.settingslib.widget.IllustrationPreference
+        android:key="aqua_statusbar"
+        android:layout_width="0dp"
+        android:layout_height="140dp"
+        android:layout_columnWeight="1"
+        android:summary="Statusbar"
+        android:icon="@drawable/ic_aqua_statusbar" />
+
+    <!-- GESTURES -->
+    <com.android.settingslib.widget.IllustrationPreference
+        android:key="aqua_gestures"
+        android:layout_width="0dp"
+        android:layout_height="140dp"
+        android:layout_columnWeight="1"
+        android:summary="Gestures"
+        android:icon="@drawable/ic_aqua_gestures" />
+
+    <!-- MISC -->
+    <com.android.settingslib.widget.IllustrationPreference
+        android:key="aqua_misc"
+        android:layout_width="0dp"
+        android:layout_height="140dp"
+        android:layout_columnWeight="1"
+        android:summary="Misc."
+        android:icon="@drawable/ic_aqua_misc" />
+
+    <!-- POWER MENU -->
+    <com.android.settingslib.widget.IllustrationPreference
+        android:key="aqua_powermenu"
+        android:layout_width="0dp"
+        android:layout_height="140dp"
+        android:layout_columnWeight="1"
+        android:summary="Power Menu"
+        android:icon="@drawable/ic_aqua_powermenu" />
+
+</GridLayout>
